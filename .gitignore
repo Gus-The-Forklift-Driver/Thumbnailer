@@ -1,4 +1,4 @@
-build
+interface
 dist
 *.spec
 *.jpg
