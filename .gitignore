@@ -1,8 +1,6 @@
 interface
 build
 dist
-*.spec
-*.jpg
-*.png
+interface.spec
 __pycache__
 build.bat
