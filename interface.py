@@ -85,6 +85,10 @@ with dpg.window(label="", tag='main_window'):
         dpg.add_progress_bar(tag='progress', default_value=0)
         dpg.add_text(tag='progress_text', default_value='0/0')
 
+    dpg.add_separator()
+    with dpg.tree_node(tag='tree_view'):
+        pass
+
 dpg.create_viewport(title='Mipmap generator', width=800, height=600)
 dpg.setup_dearpygui()
 dpg.show_viewport()

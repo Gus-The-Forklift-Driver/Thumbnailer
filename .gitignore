@@ -4,3 +4,5 @@ dist
 interface.spec
 __pycache__
 build.bat
+demo.py
+test_folder
